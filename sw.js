@@ -24,24 +24,24 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "certificate.1dd6d3ca.js",
-    "revision": "5d7118e7f8e9a65152bf00d6742a96cf"
-  },
-  {
     "url": "certificate.84dda806.pdf",
     "revision": "343ac8bb3542a6578f2a4cbaf0f99679"
   },
   {
-    "url": "certificate.b7dcfaaf.css",
-    "revision": "de5506d7c1617c3893421a3c2d405958"
+    "url": "certificate.9d63202f.css",
+    "revision": "05ec2e867f5aac4ed4c655c9ccc90e3b"
+  },
+  {
+    "url": "certificate.af9e4ecd.js",
+    "revision": "0a4e470745592d4ef1394505a6a60818"
   },
   {
     "url": "generate.f0102810.js",
-    "revision": "d2603c77f93648a3edabc00f4a656152"
+    "revision": "4ae840f60fcb592dae5ed599d44f3098"
   },
   {
     "url": "index.html",
-    "revision": "4230d828131064b09e71301de0e0cc29"
+    "revision": "6585feb1752ee08f8a5874ad8db71516"
   },
   {
     "url": "marianne-bold-webfont.1505950c.woff2",
@@ -61,9 +61,9 @@ self.__precacheManifest = [
   },
   {
     "url": "./",
-    "revision": "0b36113f5f53ee19dca0682ad4eaca44"
+    "revision": "fa74da3d36c1d2e03bdbd7f91cb3b431"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/deplacement-covid-19/index.html"));
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("https://obouallou.github.io//index.html"));
