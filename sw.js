@@ -24,46 +24,46 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "certificate.84dda806.pdf",
-    "revision": "343ac8bb3542a6578f2a4cbaf0f99679"
+    "url": "certificate.9e278a37.pdf",
+    "revision": "623cac53a40c141642b22bf50fe14628"
   },
   {
-    "url": "certificate.9d63202f.css",
-    "revision": "05ec2e867f5aac4ed4c655c9ccc90e3b"
-  },
-  {
-    "url": "certificate.ebe89db7.js",
-    "revision": "215451553805fa9dcea9a04826746f7f"
-  },
-  {
-    "url": "generate.4815687e.js",
-    "revision": "91624a045692a780cccb291bcfb690d4"
+    "url": "generate.4f0b71f0.js",
+    "revision": "4d9b8ef1dacb5017e54ab9c553fd715c"
   },
   {
     "url": "index.html",
-    "revision": "fe4b7179f67ea9e7890df8c6d585fbf8"
+    "revision": "a141a98e1408a49641a83354807b46bd"
   },
   {
-    "url": "marianne-bold-webfont.1505950c.woff2",
-    "revision": "e67f6cefe32cc39f909e605c8d6337a9"
+    "url": "index.js",
+    "revision": "a08e05fd7bd0d39c6ef6af918e87984b"
   },
   {
-    "url": "marianne-bold-webfont.7424dbde.woff",
+    "url": "main.fb6bbcaf.css",
+    "revision": "a6fed0b15468b6a6e4c41d251c35f2ec"
+  },
+  {
+    "url": "marianne-bold-webfont.db730b38.woff",
     "revision": "0bcc99dd4adfb78e11098fedfe531cbb"
   },
   {
-    "url": "marianne-regular-webfont.0a959359.woff",
-    "revision": "89f4f2326c77429e98693cf83703face"
+    "url": "marianne-bold-webfont.f8428997.woff2",
+    "revision": "e67f6cefe32cc39f909e605c8d6337a9"
   },
   {
-    "url": "marianne-regular-webfont.daa94941.woff2",
+    "url": "marianne-regular-webfont.0529dd78.woff2",
     "revision": "d2c09e5f58d8360f541e2a8726c33587"
   },
   {
+    "url": "marianne-regular-webfont.78905f1b.woff",
+    "revision": "89f4f2326c77429e98693cf83703face"
+  },
+  {
     "url": "./",
-    "revision": "35be315efab3856798def059596b5d09"
+    "revision": "065f5a8df446eba51096bd2864d75fdd"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("https://obouallou.github.io//index.html"));
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/index.html"));
