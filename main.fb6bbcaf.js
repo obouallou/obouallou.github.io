@@ -49244,7 +49244,7 @@ function _generatePdf() {
             lastname = profile.lastname, firstname = profile.firstname, birthday = profile.birthday, placeofbirth = profile.placeofbirth, address = profile.address, zipcode = profile.zipcode, city = profile.city, datesortie = profile.datesortie, heuresortie = profile.heuresortie;
             formDate = (0, _formUtil.loadDate)();
             creationDate = formDate.toLocaleDateString("fr-FR");
-            creationHour = "".concat(formDate.getHours(), ":").concat(formDate.getMinutes());
+            creationHour = "".concat((0, _util.pad2Zero)(formDate.getHours()), ":").concat((0, _util.pad2Zero)(formDate.getMinutes()));
             data = ["Cree le: ".concat(creationDate, " a ").concat(creationHour), "Nom: ".concat(lastname), "Prenom: ".concat(firstname), "Naissance: ".concat(birthday, " a ").concat(placeofbirth), "Adresse: ".concat(address, " ").concat(zipcode, " ").concat(city), "Sortie: ".concat(creationDate, " a ").concat(creationHour), "Motifs: ".concat(reasons)].join(';\n ');
             _context.next = 7;
             return fetch(pdfBase).then(function (res) {
@@ -49569,7 +49569,7 @@ function prepareInputs(formInputs, reasonInputs, reasonFieldset, reasonAlert, sn
 
             case 13:
               pdfBlob = _context.sent;
-              creationInstant = new Date();
+              creationInstant = loadDate();
               creationDate = creationInstant.toLocaleDateString('fr-CA');
               creationHour = creationInstant.toLocaleTimeString('fr-FR', {
                 hour: '2-digit',
@@ -50009,7 +50009,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60041" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53713" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
